@@ -2,15 +2,11 @@
 This repository contains implementations of algorithms used in the pathfinding domain. This project is supervised by X. Gandibleux, Prof. Dr. Habil. in Computer Sc. at Nantes University.  
 
 ## Repositories
-
 ### [dat](./dat)
 Contains several repositories with .map files.
 You'll find some real-worlds maps e.g. Paris, London or other cities streets in [street_map](./dat/street_map).
 And maps from video games like [Warcraft III](./dat/dao-map/) or [Dragon Age: Origins](./dat/dao-map/).
-### [doc](./doc)
-*Empty for now... Coming soon...*
-### [res](./res)
-*Empty for now... Coming soon...*
+
 ### [src](./src)
 Here you can find the source code of the project. Each file contains the algorithm of its name. 
 

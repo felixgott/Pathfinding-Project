@@ -2,7 +2,7 @@ hidden
 doc/logo.png
 doc/*.bib
 doc/*.aux
-doc/*.fdb_latexmtk
+doc/*.fdb_latexmk
 doc/*.fls
 doc/*.glo
 doc/*.hd

@@ -1,6 +1,4 @@
 hidden
-res/**/*.png
-res/**/*.txt
 doc/logo.png
 doc/*.bib
 doc/*.aux

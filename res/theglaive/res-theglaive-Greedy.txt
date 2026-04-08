@@ -1,0 +1,4 @@
+Distance D → A : 0
+Number of states evaluated : 1
+Path D → A : (183, 190)
+Computing time : 1.656e-5 sec.

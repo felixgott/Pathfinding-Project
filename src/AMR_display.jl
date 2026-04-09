@@ -1,7 +1,8 @@
 const nbAMR = 6
-# complexAMR.dat ≔ 6
+# hugeAMR.dat ≔ 25
+# bigAMR.dat ≔ 6
 # normalAMR.dat ≔ 5
-# simpleAMR.dat ≔ 2
+# smallAMR.dat ≔ 2
 const palette = distinguishable_colors(nbAMR, [RGB(1,1,1), RGB(0,0,0)], dropseed=true)
 
 function amrToCol(amr::AMR)             # Used for the path 

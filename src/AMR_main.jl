@@ -10,18 +10,16 @@ include("AMR_display.jl")
 
 
 function main()
-    filename = "hugeAMR.dat"             # change this string if you want another file. It has to be located in the res/AMR_datas repository
+    filename = "smallAMR.dat"             # change this string if you want another file. It has to be located in the res/AMR_data repository
 
-    amrs, docks, trucks, map = parse_file("dat/AMR_datas/$filename")    # parsing the file
+    amrs, docks, trucks, map = parse_file("dat/AMR_data/$filename")    # parsing the file
     instance = InstanceAMR(map, docks, amrs, trucks)                    # make the datas into an instance
     sol = astarAMR(instance)                                            # solving the instance
     sort!(sol.amrs, by = x -> x.id)                                     # sort the AMR vector for better displaying
     maps = saveSol(sol, docks)                                          # save a map for each unit of time
-                                        
-    println(sol.tElapsed)
-    println(sol.endTime)
-    display = false      # true → output results in the res repository / false → output nothing
-    saveRes = false     # true → saving png files for each time / false → saving nothing
+    
+    display = true      # true → output results in the res repository / false → output nothing
+    saveRes = true     # true → saving png files for each time / false → saving nothing
     keepRes = true      # true → printing and saving results in both the repository and the terminal / false → printing and saving nothing
 
     dirname = splitext(filename)[1]

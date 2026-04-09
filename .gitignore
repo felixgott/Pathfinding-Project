@@ -1,5 +1,5 @@
 hidden
-doc/logo.png
+doc/*.png
 doc/*.bib
 doc/*.aux
 doc/*.fdb_latexmk
@@ -14,3 +14,4 @@ doc/*.tex
 doc/*.gz
 doc/*.toc
 doc/*.vrb
+doc/*.gif

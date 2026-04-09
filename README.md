@@ -60,6 +60,14 @@ Contains folders with results of several computations.
 Make your own with the following part !
 
 ## Run the code
+
+### Required packages
+Ensure that you have all the four following packages installed
+- `DataStructures`
+- `Plots`
+- `Images`
+- `Colors`
+
 ### Pathfinding
 - Download all the repository from GitHub
 - In a terminal, move to the directory, and invoke `julia` at the root

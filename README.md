@@ -7,8 +7,7 @@ Contains several directories with .map file, and .dat files
 
 #### .map files 
 These files are used in the pathfinding part :
-Includes real-world maps, such as Paris, London or other cities streets in [street_map](./dat/street_map).
-And maps from video games like [Warcraft III](./dat/dao-map/) or [Dragon Age: Origins](./dat/dao-map/).
+Includes real-world maps, such as Paris, London or other cities streets in [street_map](./dat/street_map), and maps from video games like [Warcraft III](./dat/dao-map/) or [Dragon Age: Origins](./dat/dao-map/).
 
 #### .dat
 Those files are used in  the MAPP part.
